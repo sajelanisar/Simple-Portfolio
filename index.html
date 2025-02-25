@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisar Ali - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Nisar Ali</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- <h1>Nissarr<span id="name">Alee</span></h1> -->
+            <h2>Nissarr <span>Alee</span></h2>
+            <p><span id="description">I am a passionate web developer with skills in HTML, CSS, JavaScript, PHP, WordPress, and Photoshop.</span></p>
+            <button class="btn-primary">Explore More</button>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="image/me.jpg" alt="Nisar Ali" class="about-img">
+            <p>I'm a passionate web developer with skills in HTML, CSS, JavaScript, PHP, WordPress, and Photoshop.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <div class="circle" data-percent="90"></div>
+            <p>HTML</p>
+        </div>
+        
+        <div class="skill">
+            <div class="circle" data-percent="85"></div>
+            <p>CSS</p>
+        </div>
+        <div class="skill">
+            <div class="circle" data-percent="50"></div>
+            <p>JavaScript</p>
+        </div>
+        <div class="skill">
+            <div class="circle" data-percent="40"></div>
+            <p>PHP</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="image/pro1.png" alt="Project 1">
+                <div class="overlay">
+                    <h3>Project One</h3>
+                    <p>This is a web development project.</p>
+                </div>
+            </div>
+            
+            <div class="project">
+                <img src="image/pro2.png" alt="Project 2">
+                <div class="overlay">
+                    <h3>Project Two</h3>
+                    <p>A fully responsive website design.</p>
+                </div>
+            </div>
+            
+            <div class="project">
+                <img src="image/pro3.png" alt="Project 3">
+                <div class="overlay">
+                    <h3>Project Three</h3>
+                    <p>An interactive JavaScript application.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+    <h2>Contact Me</h2>
+    
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Google Map -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.7488064022737!2d73.06810536201179!3d33.65277370335101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df953c0a0bdd23%3A0xb965931807605328!2sM33C%2B52G%2C%20Pindora%2C%20Rawalpindi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1740320131897!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                width="100%" height="100%" 
+                style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
